@@ -1,0 +1,225 @@
+{
+  "entries": [
+    {
+      "key": "typescript",
+      "id": "typescript",
+      "title": "TypeScript",
+      "quadrant": "languages",
+      "description": "Primary language for frontend and backend development, enabling type safety and maintainability.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2024-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "nodejs-22",
+      "id": "nodejs-22",
+      "title": "Node.js 22",
+      "quadrant": "languages",
+      "description": "Current LTS version used for production workloads.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2024-06-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "nodejs-24",
+      "id": "nodejs-24",
+      "title": "Node.js 24",
+      "quadrant": "languages",
+      "description": "Next-generation Node.js version under evaluation for future adoption.",
+      "timeline": [
+        {
+          "ringId": "trial",
+          "date": "2025-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "pnpm",
+      "id": "pnpm",
+      "title": "pnpm",
+      "quadrant": "infrastructure",
+      "description": "Package manager optimized for monorepos, performance, and disk efficiency.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2024-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "react",
+      "id": "react",
+      "title": "React",
+      "quadrant": "frameworks",
+      "description": "Standard UI library for building component-based web applications.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2023-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "aws",
+      "id": "aws",
+      "title": "AWS",
+      "quadrant": "infrastructure",
+      "description": "Primary cloud provider for hosting, managed services, and infrastructure automation.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2022-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "jenkins",
+      "id": "jenkins",
+      "title": "Jenkins",
+      "quadrant": "infrastructure",
+      "description": "CI/CD tool used for legacy and specialized pipelines.",
+      "timeline": [
+        {
+          "ringId": "assess",
+          "date": "2024-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "artillery",
+      "id": "artillery",
+      "title": "Artillery",
+      "quadrant": "frameworks",
+      "description": "Performance and load testing tool focused on modern APIs.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2024-03-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "pactumjs",
+      "id": "pactumjs",
+      "title": "PactumJS",
+      "quadrant": "frameworks",
+      "description": "API testing framework focused on HTTP contract validation and automation.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2024-03-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "playwright",
+      "id": "playwright",
+      "title": "Playwright",
+      "quadrant": "frameworks",
+      "description": "End-to-end testing framework for reliable browser automation.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2024-02-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "bruno-api-client",
+      "id": "bruno-api-client",
+      "title": "Bruno API Client",
+      "quadrant": "tools",
+      "description": "Lightweight, Git-friendly API client for local and team-based API testing.",
+      "timeline": [
+        {
+          "ringId": "trial",
+          "date": "2024-06-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "code-review",
+      "id": "code-review",
+      "title": "Code Review",
+      "quadrant": "process",
+      "description": "Mandatory peer review process to ensure code quality and shared ownership.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2020-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "pair-programming",
+      "id": "pair-programming",
+      "title": "Pair Programming",
+      "quadrant": "process",
+      "description": "Collaborative development practice to improve design, quality, and knowledge sharing.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2021-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "trunk-based-development",
+      "id": "trunk-based-development",
+      "title": "Trunk-Based Development",
+      "quadrant": "process",
+      "description": "Development strategy focused on short-lived branches and continuous integration.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2023-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "shift-left-testing",
+      "id": "shift-left-testing",
+      "title": "Shift-Left Testing",
+      "quadrant": "process",
+      "description": "Testing practices applied earlier in the development lifecycle.",
+      "timeline": [
+        {
+          "ringId": "adopt",
+          "date": "2023-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "observability-by-default",
+      "id": "observability-by-default",
+      "title": "Observability by Default",
+      "quadrant": "process",
+      "description": "Systems are designed with logs, metrics, and traces as first-class concerns.",
+      "timeline": [
+        {
+          "ringId": "assess",
+          "date": "2024-01-01T00:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "quadrants": [
+    { "id": "languages", "name": "Languages" },
+    { "id": "frameworks", "name": "Frameworks" },
+    { "id": "infrastructure", "name": "Infrastructure" },
+    { "id": "tools", "name": "Tools" },
+    { "id": "process", "name": "Process" }
+  ],
+  "rings": [
+    { "id": "adopt", "name": "ADOPT", "color": "#5BA300" },
+    { "id": "trial", "name": "TRIAL", "color": "#009EB0" },
+    { "id": "assess", "name": "ASSESS", "color": "#C7BA00" },
+    { "id": "hold", "name": "HOLD", "color": "#E09B96" }
+  ]
+}
