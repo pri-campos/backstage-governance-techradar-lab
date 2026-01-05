@@ -40,6 +40,19 @@
       ]
     },
     {
+      "key": "nodejs-14",
+      "id": "nodejs-14",
+      "title": "Node.js 14",
+      "quadrant": "languages",
+      "description": "End-of-life Node.js version. Should not be used due to lack of security updates and ecosystem support.",
+      "timeline": [
+        {
+          "ringId": "hold",
+          "date": "2023-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
       "key": "pnpm",
       "id": "pnpm",
       "title": "pnpm",
@@ -86,7 +99,7 @@
       "description": "CI/CD tool used for legacy and specialized pipelines.",
       "timeline": [
         {
-          "ringId": "assess",
+          "ringId": "adopt",
           "date": "2024-01-01T00:00:00.000Z"
         }
       ]
@@ -140,6 +153,19 @@
         {
           "ringId": "trial",
           "date": "2024-06-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "key": "postman",
+      "id": "postman",
+      "title": "Postman",
+      "quadrant": "frameworks",
+      "description": "Popular API client under evaluation considering collaboration model, licensing, and alternatives such as Git-friendly tools.",
+      "timeline": [
+        {
+          "ringId": "assess",
+          "date": "2024-01-01T00:00:00.000Z"
         }
       ]
     },
