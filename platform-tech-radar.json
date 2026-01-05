@@ -134,8 +134,8 @@
       "key": "bruno-api-client",
       "id": "bruno-api-client",
       "title": "Bruno API Client",
-      "quadrant": "tools",
-      "description": "Lightweight, Git-friendly API client for local and team-based API testing.",
+      "quadrant": "frameworks",
+      "description": "Git-friendly API client for local and team-based API testing.",
       "timeline": [
         {
           "ringId": "trial",
@@ -210,10 +210,9 @@
     }
   ],
   "quadrants": [
-    { "id": "languages", "name": "Languages" },
-    { "id": "frameworks", "name": "Frameworks" },
     { "id": "infrastructure", "name": "Infrastructure" },
-    { "id": "tools", "name": "Tools" },
+    { "id": "frameworks", "name": "Frameworks" },
+    { "id": "languages", "name": "Languages" },
     { "id": "process", "name": "Process" }
   ],
   "rings": [
